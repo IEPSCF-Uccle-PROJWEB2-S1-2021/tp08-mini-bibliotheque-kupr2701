@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= title %></title>
+  <link rel="stylesheet" href="/stylesheets/style.css" />
+</head>
+
+<body>
+  <h1><%= title %></h1>
+  <form method="post" action="/books/list" >
+    <label for="categorie"> categorie : </label>
+    <select name="categorie" id="categorie" required>
+      <optgroup id='select'>
+        <option value="autobiographie">authobiographie</option>
+        <option value="fantasy">fantasy</option>
+        <option value="roman histoire">Roman d'histoire</option>
+      </optgroup>
+    </select>
+    </div>
+    <div >
+      <input type="submit" value="search"> </input>
+    </div>
+  </form>
+</body>
+
+</html>
